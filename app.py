@@ -22,7 +22,7 @@ st.set_page_config(
 st.image("assets/CrediPredict_Logo.svg", width=240)
 
 st.markdown(
-    "<p style='margin-top:-35px; color:gray;'>Credible predictions for market-moving events</p>",
+    "<p style='margin-top:-80px; color:gray;'>Credible predictions for market-moving events</p>",
     unsafe_allow_html=True
 )
 st.markdown(
