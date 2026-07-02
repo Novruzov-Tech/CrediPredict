@@ -19,19 +19,15 @@ st.set_page_config(
     layout="wide"
 )
 
-st.image("assets/CrediPredict_Logo.svg", width=240)
-
-st.markdown(
-    "<p style='margin-top:-80px; color:gray;'>Credible predictions for market-moving events</p>",
-    unsafe_allow_html=True
-)
 st.markdown(
     """
+    # CrediPredict
+    **Credible predictions for market-moving events**
+
     This is a simplified academic prototype.  
     It uses historical Yahoo Finance data to estimate whether a selected stock is more likely to go up or down in the next trading day.
     """
 )
-
 
 # -----------------------------
 # Sidebar
