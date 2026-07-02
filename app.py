@@ -41,6 +41,10 @@ st.sidebar.image("assets/CrediPredict_Logo.svg", width=180)
 selected_ticker = st.sidebar.selectbox("Choose company", stock_tickers)
 period = st.sidebar.selectbox("Data period", ["5y", "3y", "2y", "1y"], index=0)
 
+if st.sidebar.button("🔄 Update latest data"):
+    st.cache_data.clear()
+    st.rerun()
+
 st.sidebar.markdown("---")
 st.sidebar.write("Data source: Yahoo Finance")
 st.sidebar.write("Model: Logistic Regression")
