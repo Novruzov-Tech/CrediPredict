@@ -19,9 +19,12 @@ st.set_page_config(
     layout="wide"
 )
 
-st.image("assets/CrediPredict_Logo.svg", width=320)
+st.image("assets/CrediPredict_Logo.svg", width=240)
 
-st.caption("Credible predictions for market-moving events")
+st.markdown(
+    "<p style='margin-top:-35px; color:gray;'>Credible predictions for market-moving events</p>",
+    unsafe_allow_html=True
+)
 st.markdown(
     """
     This is a simplified academic prototype.  
@@ -36,6 +39,8 @@ st.markdown(
 stock_tickers = ["AAPL", "MSFT", "NVDA", "TSLA", "AMZN", "META", "JPM", "XOM"]
 market_ticker = "^GSPC"
 all_tickers = stock_tickers + [market_ticker]
+
+st.sidebar.image("assets/CrediPredict_Logo.svg", width=180)
 
 selected_ticker = st.sidebar.selectbox("Choose company", stock_tickers)
 period = st.sidebar.selectbox("Data period", ["5y", "3y", "2y", "1y"], index=0)
