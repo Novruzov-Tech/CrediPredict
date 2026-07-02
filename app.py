@@ -19,7 +19,8 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("CrediPredict")
+st.image("assets/CrediPredict_Logo.svg", width=320)
+
 st.caption("Credible predictions for market-moving events")
 st.markdown(
     """
