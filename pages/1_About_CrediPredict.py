@@ -84,7 +84,7 @@ st.write(
 )
 
 # Replace this with your real WhatsApp Channel link
-whatsapp_channel_link = "PASTE_YOUR_WHATSAPP_CHANNEL_LINK_HERE"
+whatsapp_channel_link = "https://chat.whatsapp.com/IoCBmF2u68gBP8DNlyl8A3?mode=gi_t"
 
 st.link_button("Join CrediPredict WhatsApp Channel", whatsapp_channel_link)
 
