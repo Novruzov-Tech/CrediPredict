@@ -1,5 +1,8 @@
 import streamlit as st
 
+st.sidebar.image("assets/CrediPredict_Logo.svg", width=180)
+st.sidebar.markdown("---")
+
 st.set_page_config(
     page_title="About CrediPredict",
     page_icon="📊",
